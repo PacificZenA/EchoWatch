@@ -58,14 +58,11 @@ python main.py
 # Pastebin
 python external_pastebin_scanner.py
 
-```markdown
-### 4plebs (headless Chrome)
-
-Run this module:
-
-```bash
+# 4plebs (headless Chrome)
 python external_4plebs_selenium.py
 
+
+#
 📦 Outputs: All logs saved under /output/*.csv with fields:
 
 🧠 Author: Created by Alex Tang for ethical AI research and digital public safety.
