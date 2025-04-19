@@ -58,14 +58,13 @@ python main.py
 # Pastebin
 python external_pastebin_scanner.py
 
+```markdown
 ### 4plebs (headless Chrome)
 
 Run this module:
 
 ```bash
 python external_4plebs_selenium.py
-
-```
 
 📦 Outputs: All logs saved under /output/*.csv with fields:
 
