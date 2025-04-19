@@ -18,9 +18,9 @@ It matches messages against an evolving set of **intent-oriented phrases**, aimi
 - ⚙️ Headless browser support (Selenium for bypassing web protection)
 - ☁️ No API keys required for Reddit or Pastebin
 
+---
 
 ## 📁 Project Structure
-
 
 ```bash
 ECHO_WATCH/
@@ -38,25 +38,36 @@ ECHO_WATCH/
 ├── keywords_loader.py
 ├── reddit_comments.py
 └── README.md
-
 ```
-⚙️ Setup
-Clone this repo
 
-Install dependencies:
+---
+
+## ⚙️ Setup
+
+1. Clone this repo
+2. Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
 For 4plebs scanner, also install:
+
+```bash
 pip install selenium webdriver-manager
-Ensure keywords/ contains your threat phrase lists
+```
 
+3. Ensure `keywords/` contains your threat phrase lists
 
-🧪 Run Scanners
-# Reddit
-python main.py
+---
 
-# Pastebin
+## 🧪 Run Scanners
+
+### Pastebin
+
+```bash
 python external_pastebin_scanner.py
+```
 
 ### 4plebs (headless Chrome)
 
@@ -64,20 +75,17 @@ Run this module:
 
 ```bash
 python external_4plebs_selenium.py
-📦 Outputs: All logs saved under /output/*.csv with fields:
+```
 
-🧠 Author: Created by Alex Tang for ethical AI research and digital public safety.
+---
 
-"I'd rather prevent one tragedy than debug a thousand after the fact."
+📦 **Outputs**: All logs saved under `/output/*.csv` with fields:
 
-🗒️ Changelog [v0.6.2] - 2025-04-21
+🧠 **Author**: Created by Alex Tang for ethical AI research and digital public safety.  
+> "I'd rather prevent one tragedy than debug a thousand after the fact."
 
-✅ Added Pastebin and 4plebs (Selenium-based) scanners
-
-🧠 Upgraded threat_phrases.txt with 30+ intent phrases
-
-🧹 Removed deprecated direct 4chan scanner due to ongoing breach
-
-🛡️ Scanned live platforms, no threats detected （空军）
-
-
+🗒️ **Changelog [v0.6.2] - 2025-04-21**
+- ✅ Added Pastebin and 4plebs (Selenium-based) scanners  
+- 🧠 Upgraded `threat_phrases.txt` with 30+ intent phrases  
+- 🧹 Removed deprecated direct 4chan scanner due to ongoing breach  
+- 🛡️ Scanned live platforms, no threats detected （空军）
