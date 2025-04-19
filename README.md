@@ -73,9 +73,13 @@ Created by Alex Tang for ethical AI research and digital public safety.
 📜 Changelog
 [v0.6.2] - 2025-04-21
 ✅ Added Pastebin and 4plebs (Selenium-based) scanners
+
 🧠 Upgraded threat_phrases.txt with 30+ intent phrases
+
 🧹 Removed deprecated direct 4chan scanner due to ongoing breach
+
 🛡️ Scanned live platforms, no threats detected (空军一日)
+
 ---
 
 
