@@ -2,5 +2,6 @@ __pycache__/
 *.pyc
 output/threat_log.csv
 .env
+.env.local
 .vscode/
 keywords/
