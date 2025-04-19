@@ -67,21 +67,21 @@ python external_4plebs_selenium.py
 
 ```
 
-📦 Outputs
-All logs saved under /output/*.csv with fields:
+📦 Outputs: All logs saved under /output/*.csv with fields:
 
-🧠 Author
-Created by Alex Tang for ethical AI research and digital public safety.
-"I’d rather prevent one tragedy than debug a thousand after the fact."
+🧠 Author: Created by Alex Tang for ethical AI research and digital public safety.
 
+"I'd rather prevent one tragedy than debug a thousand after the fact."
 
-📜 Changelog
-[v0.6.2] - 2025-04-21
+🗒️ Changelog [v0.6.2] - 2025-04-21
+
 ✅ Added Pastebin and 4plebs (Selenium-based) scanners
-🧠 Upgraded threat_phrases.txt with 30+ intent phrases
-🧹 Removed deprecated direct 4chan scanner due to ongoing breach
-🛡️ Scanned live platforms, no threats detected (空军)
 
+🧠 Upgraded threat_phrases.txt with 30+ intent phrases
+
+🧹 Removed deprecated direct 4chan scanner due to ongoing breach
+
+🛡️ Scanned live platforms, no threats detected （空军）
 
 
 
