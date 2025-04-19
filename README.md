@@ -58,17 +58,19 @@ python main.py
 # Pastebin
 python external_pastebin_scanner.py
 
-# 4plebs (headless Chrome)
+### 4plebs (headless Chrome)
+
+Run this module:
+
+```bash
 python external_4plebs_selenium.py
+📦 Outputs: All logs saved under /output/*.csv with fields:
 
-
-##📦 Outputs: All logs saved under /output/*.csv with fields:
-
-##🧠 Author: Created by Alex Tang for ethical AI research and digital public safety.
+🧠 Author: Created by Alex Tang for ethical AI research and digital public safety.
 
 "I'd rather prevent one tragedy than debug a thousand after the fact."
 
-##🗒️ Changelog [v0.6.2] - 2025-04-21
+🗒️ Changelog [v0.6.2] - 2025-04-21
 
 ✅ Added Pastebin and 4plebs (Selenium-based) scanners
 
@@ -77,6 +79,5 @@ python external_4plebs_selenium.py
 🧹 Removed deprecated direct 4chan scanner due to ongoing breach
 
 🛡️ Scanned live platforms, no threats detected （空军）
-
 
 
