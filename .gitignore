@@ -3,3 +3,4 @@ __pycache__/
 output/threat_log.csv
 .env
 .vscode/
+keywords/
