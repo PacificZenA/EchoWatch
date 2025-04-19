@@ -60,7 +60,7 @@ python external_pastebin_scanner.py
 
 # 4plebs (headless Chrome)
 python external_4plebs_selenium.py
-
+---
 
 📦 Outputs
 All logs saved under /output/*.csv with fields:
@@ -77,7 +77,6 @@ Created by Alex Tang for ethical AI research and digital public safety.
 🧹 Removed deprecated direct 4chan scanner due to ongoing breach
 🛡️ Scanned live platforms, no threats detected (空军)
 
----
 
 
 
