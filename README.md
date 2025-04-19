@@ -18,9 +18,9 @@ It matches messages against an evolving set of **intent-oriented phrases**, aimi
 - ⚙️ Headless browser support (Selenium for bypassing web protection)
 - ☁️ No API keys required for Reddit or Pastebin
 
----
 
 ## 📁 Project Structure
+
 
 ```bash
 ECHO_WATCH/
@@ -39,7 +39,7 @@ ECHO_WATCH/
 ├── reddit_comments.py
 └── README.md
 
-
+```
 ⚙️ Setup
 Clone this repo
 
@@ -76,3 +76,7 @@ Created by Alex Tang for ethical AI research and digital public safety.
 🧠 Upgraded threat_phrases.txt with 30+ intent phrases
 🧹 Removed deprecated direct 4chan scanner due to ongoing breach
 🛡️ Scanned live platforms, no threats detected (空军一日)
+---
+
+
+
